@@ -15,7 +15,7 @@ public class StudentController {
     private List<Student> studentList = new ArrayList<>();
 
     @GetMapping("/student")
-    public Student getStudents() {
+    public List<Student> getStudents() {
         return studentList;
     }
 
